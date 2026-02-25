@@ -1,0 +1,12 @@
+# 桌面版（必需）
+PyQt6>=6.6
+cryptography>=44.0
+
+# 打包工具
+pyinstaller>=6.0
+
+# Web 版（可选，仅运行 app.py 时需要）
+fastapi==0.115.6
+uvicorn==0.34.0
+jinja2==3.1.5
+python-multipart==0.0.20

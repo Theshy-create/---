@@ -1,0 +1,28 @@
+# 用户数据（绝对不能上传）
+accounts.db
+.salt
+aegis_config.json
+backups/
+
+# 打包产物
+build/
+dist/
+output/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
